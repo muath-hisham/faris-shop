@@ -43,7 +43,7 @@
 }
 
 body{
-    background-image: url("imgs/background.jpg");
+    background-image: url("../imgs/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -161,7 +161,7 @@ body{
     margin: 10px;
     width: 280px;
     height: 280px;
-    background: url("imgs/my-img.jpg");
+    background: url("../imgs/my-img.jpg");
     background-size: 100%;
     overflow: hidden;
     position: relative;
