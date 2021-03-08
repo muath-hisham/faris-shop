@@ -1,0 +1,397 @@
+/*font-family: 'Akaya Telivigala', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+ a , button{
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.home ul li{
+    float: right;
+    margin: 10px 16px;
+    font-size: 16px;
+}
+
+.home ul{
+    list-style-type: none;
+}
+
+.home ul .logo{
+    float: left;
+    margin: 0.3%;
+}
+
+.home ul li img{
+    width: 100px;
+}
+
+.home ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.home {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+body{
+    background-image: url("imgs/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 10px;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.welcome img {
+    width: 250px;
+    margin: 14px;
+}
+
+.welcome button{
+    margin: 14px;
+    padding: 8px 22px;
+    font-size: 20px;
+    border-radius:20px;
+    border: 0;
+    font-weight: bold;
+    background-color: chocolate;
+}
+
+.welcome h1 span{
+    color: #f12121;
+}
+
+.welcome h1{
+    color: black;
+}
+
+@media (max-width: 750px) {
+    .welcome h1{
+        font-size: 30px;
+    }
+}
+
+.welcome button:hover {
+    background-color: black;
+    color: white;
+}
+
+.welcome .login{
+    background-color: #0d860d;
+}
+
+.product{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+    margin: 25px;
+    display: inline-block;
+}
+
+.product img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.product p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.product .bay{
+    margin: 14px;
+    padding: 8px 22px;
+    font-size: 20px;
+    border-radius:20px;
+    border: 0;
+    font-weight: bold;
+    background-color: white;
+}
+
+.product .bay:hover {
+    background-color: black;
+    color: white;
+}
+
+#nav-tabContent{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.all-products{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.our-team{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.our-team h1{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.our-team .profile{
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+    background: url("imgs/my-img.jpg");
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.our-team .profile .caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 100%;
+    right: 100%;
+    transition: 1s;
+}
+
+.our-team .caption h2{
+    font-size: 30px;
+    color: white;
+    margin: 20px ;
+    padding-top: 50px;
+}
+
+.our-team h1::after{
+    content: " ";
+    width: 40%;
+    height: 1.5px;
+    background: red;
+    position: absolute;
+    top: 22px;
+    right: 0px;
+}
+
+.our-team h1::before{
+    content: " ";
+    width: 40%;
+    height: 1.5px;
+    background: red;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+}
+
+@media (max-width: 750px) {
+    .our-team h1::after{
+        width: 18%;
+    }
+
+    .our-team h1::before{
+        content: " ";
+        width: 18%;
+    }
+}
+
+.our-team .caption p{
+    font-size: 25px;
+    color: white;
+    margin: 30px;
+}
+
+.our-team .caption button{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.our-team .caption button:hover{
+    color: white;
+    background-color: black;
+}
+
+.our-team .profile:hover .caption{
+    top: 0px;
+    right: 0px;
+    transform: rotate(360deg);
+    position: absolute;
+}
+
+.navbar{
+    background: linear-gradient(to right, #111 60%, #eee);
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 22px;
+}
+
+.img-slid{
+    margin: auto;
+}
+
+.navbar {
+    z-index: 14984984984;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+
+.aboutUsHeader h1{
+    color: #f12121;
+}
+
+.gallery .nav {
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 750px) {
+    .gallery .nav {
+        width: 100%;
+    }
+}
+
+.gallery .nav .nav-link{
+    color: white;
+}
+
+.gallery .nav  .active{
+    color: black !important;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tab-content {
+    width: 80% !important;
+}
+
+.gallery .all-products .aboutUsHeader h1{
+    padding: 15px;
+}
+
+#carouselExampleCaptions{
+    margin-top: 30px;
+}
+
+.hr {
+    width: 25%;
+    height: 3.5px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #111, #f12121, #111);
+}
+
+@media (max-width: 750px) {
+    .hr{
+        width: 70%;
+    }
+}
+
+.aboutUs{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 32px !important;
+}
+
+.aboutUs .container img{
+    border-radius: 25px;
+}
+
+.my-about-us{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+ .my-about-us p{
+    color: wheat;
+}
+
+.my-about-us h1 {
+    color: wheat;
+    font-weight: bold;
+}
+
+#our-team{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 23px;
+    padding-bottom: 10px;
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 50px 0px;
+    padding: 25px;
+}
+
+.my-login{
+    width: 70%;
+    margin: auto;
+}
+
+.login .my-link{
+    width: 350px;
+    text-align: center;
+}
+
+.login .my-link a{
+    margin: 20px 0px;
+}
+
+.my-form{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.my-form input{
+    margin: 10px 0;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.my-form .my-text{
+    padding: 15px;
+}
+
+.my-form .submit{
+    font-weight: bold;
+}
+
+.my-form h3{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.my-login .col-lg-4{
+    margin: 15px 0;
+}
